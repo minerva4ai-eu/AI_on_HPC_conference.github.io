@@ -263,6 +263,18 @@ td.navigation a {
     color: var(--minerva-red-dark);
 }
 
+.button[aria-disabled="true"] {
+    background: var(--minerva-muted);
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.helper-text {
+    color: var(--minerva-muted);
+    font-size: 0.95rem;
+    margin-top: 14px;
+}
+
 .program-day table {
     background: var(--minerva-surface);
     border: 1px solid var(--minerva-border);
