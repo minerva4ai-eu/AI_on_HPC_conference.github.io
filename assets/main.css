@@ -102,7 +102,7 @@ table {
     min-height: 320px;
 }
 
-.banner img {
+.banner > img {
     display: block;
     height: 100%;
     left: 0;
@@ -136,6 +136,7 @@ table {
     padding-top: 48px;
 }
 
+.banner-home .banner-logo,
 .banner-home .banner-overlay h1,
 .banner-home .banner-date,
 .banner-home .banner-meta {
@@ -145,6 +146,20 @@ table {
 
 .banner-home .banner-overlay h1 {
     font-size: clamp(2.2rem, 4vw, 3.8rem);
+}
+
+.banner-logo {
+    align-self: flex-start;
+    background: rgba(255, 255, 255, 0.96);
+    border-radius: 18px;
+    box-shadow: 0 10px 24px rgba(7, 18, 38, 0.2);
+    height: auto;
+    margin-bottom: 22px;
+    max-width: min(280px, 60vw);
+    padding: 12px 18px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
 }
 
 .banner-date {
