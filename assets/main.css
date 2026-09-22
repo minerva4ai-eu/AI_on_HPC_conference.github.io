@@ -149,16 +149,16 @@ table {
 }
 
 .banner-logo {
-    align-self: flex-start;
+    align-self: flex-end;
     background: rgba(255, 255, 255, 0.96);
-    border-radius: 18px;
+    border-radius: 14px;
     box-shadow: 0 10px 24px rgba(7, 18, 38, 0.2);
     height: auto;
-    margin-bottom: 22px;
-    max-width: min(280px, 60vw);
-    padding: 12px 18px;
+    margin: 0 0 auto 0;
+    max-width: min(120px, 24vw);
+    padding: 8px 10px;
     position: relative;
-    width: 100%;
+    width: auto;
     z-index: 1;
 }
 
