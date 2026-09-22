@@ -136,7 +136,6 @@ table {
     padding-top: 48px;
 }
 
-.banner-home .banner-logo,
 .banner-home .banner-overlay h1,
 .banner-home .banner-date,
 .banner-home .banner-meta {
@@ -149,15 +148,15 @@ table {
 }
 
 .banner-logo {
-    align-self: flex-end;
     background: rgba(255, 255, 255, 0.96);
-    border-radius: 14px;
-    box-shadow: 0 10px 24px rgba(7, 18, 38, 0.2);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(7, 18, 38, 0.14);
     height: auto;
-    margin: 0 0 auto 0;
-    max-width: min(120px, 24vw);
-    padding: 8px 10px;
-    position: relative;
+    max-width: 84px;
+    padding: 4px 5px;
+    position: absolute;
+    right: 12px;
+    top: 12px;
     width: auto;
     z-index: 1;
 }
@@ -444,6 +443,12 @@ footer {
 
     .banner-home .banner-overlay {
         padding-top: 30px;
+    }
+
+    .banner-logo {
+        max-width: 64px;
+        right: 10px;
+        top: 10px;
     }
 
     table.navigation,
