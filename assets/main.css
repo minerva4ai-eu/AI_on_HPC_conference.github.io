@@ -151,13 +151,14 @@ table {
     background: rgba(255, 255, 255, 0.96);
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(7, 18, 38, 0.14);
+    display: block;
     height: auto;
-    max-width: 84px;
+    max-width: none;
     padding: 4px 5px;
     position: absolute;
     right: 12px;
     top: 12px;
-    width: auto;
+    width: 84px;
     z-index: 1;
 }
 
@@ -446,9 +447,9 @@ footer {
     }
 
     .banner-logo {
-        max-width: 64px;
         right: 10px;
         top: 10px;
+        width: 64px;
     }
 
     table.navigation,
