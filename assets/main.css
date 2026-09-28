@@ -376,6 +376,7 @@ td.flyer img {
     border-radius: 18px;
     box-shadow: 0 10px 24px rgba(122, 30, 22, 0.08);
     padding: 20px;
+    text-align: center;
 }
 
 .committee-card h3 {
@@ -414,6 +415,7 @@ td.flyer img {
 
 .committee-bio {
     margin: 0;
+    text-align: left;
 }
 
 .committee-bio-placeholder {
