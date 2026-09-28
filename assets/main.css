@@ -381,6 +381,7 @@ td.flyer img {
 .committee-card h3 {
     margin-top: 0;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .committee-photo {
@@ -408,6 +409,7 @@ td.flyer img {
     color: var(--minerva-orange-dark);
     font-weight: 700;
     margin: 0 0 12px 0;
+    text-align: center;
 }
 
 .committee-bio {
