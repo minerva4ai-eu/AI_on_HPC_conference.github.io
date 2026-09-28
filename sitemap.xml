@@ -8,12 +8,15 @@
         <loc>WEBSITE/registration</loc>
     </url>
     <url>
-        <loc>WEBSITE/program</loc>
+        <loc>WEBSITE/Agenda</loc>
+    </url>
+    <url>
+        <loc>WEBSITE/workshops</loc>
     </url>
     <url>
         <loc>WEBSITE/directions</loc>
     </url>
     <url>
-        <loc>WEBSITE/flyer</loc>
+        <loc>WEBSITE/scientific-committee</loc>
     </url>
 </urlset>
