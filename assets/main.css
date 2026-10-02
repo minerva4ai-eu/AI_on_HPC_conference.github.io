@@ -260,7 +260,7 @@ td.navigation a {
     padding: 12px 20px;
 }
 .button-submit {
-    background: #c62828;
+    background: #9f1d1d;
     border-radius: 999px;
     color: #ffffff;
     display: inline-block;
@@ -276,7 +276,7 @@ td.navigation a {
 
 .button-submit:hover,
 .button-submit:focus {
-    background: #8e1b1b;
+    background: #751414;
     color: #ffffff;
 }
 
