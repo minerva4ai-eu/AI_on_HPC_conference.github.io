@@ -259,10 +259,24 @@ td.navigation a {
     font-weight: 700;
     padding: 12px 20px;
 }
+.button-submit {
+    background: #c62828;
+    border-radius: 999px;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 700;
+    padding: 12px 20px;
+}
 
 .button:hover,
 .button:focus {
     background: var(--minerva-red-dark);
+    color: #ffffff;
+}
+
+.button-submit:hover,
+.button-submit:focus {
+    background: #8e1b1b;
     color: #ffffff;
 }
 
