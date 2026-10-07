@@ -229,6 +229,12 @@ td.navigation a {
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.action-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .info-card,
 .highlight-box {
     background: var(--minerva-surface);
@@ -481,7 +487,8 @@ footer {
         width: 100%;
     }
 
-    .info-grid {
+    .info-grid,
+    .action-grid {
         grid-template-columns: 1fr;
     }
 
