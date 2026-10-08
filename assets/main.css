@@ -438,6 +438,28 @@ td.flyer img {
     text-align: left;
 }
 
+.linkedin-link {
+    align-items: center;
+    color: var(--minerva-orange-dark);
+    display: inline-flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.linkedin-link:hover,
+.linkedin-link:focus {
+    color: var(--minerva-red);
+}
+
+.linkedin-icon {
+    background-color: currentColor;
+    display: inline-block;
+    height: 1.1rem;
+    -webkit-mask: url("linkedin.svg") center / contain no-repeat;
+    mask: url("linkedin.svg") center / contain no-repeat;
+    width: 1.1rem;
+}
+
 .committee-bio-placeholder {
     color: var(--minerva-muted);
     font-style: italic;
