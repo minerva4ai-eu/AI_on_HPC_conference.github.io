@@ -251,15 +251,6 @@ td.navigation a {
     padding: 24px;
 }
 
-.support-box {
-    background: #fff7f3;
-    border: 1px solid var(--minerva-border);
-    border-left: 4px solid var(--minerva-orange-dark);
-    border-radius: 14px;
-    margin-top: 36px;
-    padding: 14px 18px;
-}
-
 .highlight-box h2,
 .highlight-box h3,
 .info-card h3,
@@ -267,11 +258,7 @@ td.navigation a {
     margin-top: 0;
 }
 
-.support-box p {
-    margin: 0;
-}
-
-.support-box a {
+.footer-contact a {
     font-weight: 700;
 }
 
@@ -501,11 +488,20 @@ td.flyer img {
 }
 
 footer {
+    border-top: 1px solid var(--minerva-border);
     color: var(--minerva-muted);
     font-size: 0.95rem;
     margin-top: 56px;
-    padding-bottom: 12px;
+    padding: 24px 0 12px 0;
     text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p + p {
+    margin-top: 10px;
 }
 
 @media (max-width: 900px) {
