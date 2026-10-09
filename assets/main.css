@@ -537,6 +537,8 @@ footer p + p {
 
     td.navigation {
         display: block;
+        font-size: 0.95rem;
+        padding: 10px 8px;
         width: 100%;
     }
 
