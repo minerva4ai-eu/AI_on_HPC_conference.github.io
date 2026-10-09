@@ -563,6 +563,19 @@ footer p + p {
         padding-bottom: 0;
     }
 
+    .program-day td.date,
+    .program-day td.title,
+    .program-day td.title-special,
+    .program-day td.abstract {
+        display: table-cell;
+        width: auto;
+    }
+
+    .program-day td.date {
+        padding-bottom: 16px;
+        width: 120px;
+    }
+
     iframe.directions {
         height: 320px;
     }
