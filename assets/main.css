@@ -235,6 +235,13 @@ td.navigation a {
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.poster-guidelines-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 24px;
+}
+
 .info-card,
 .highlight-box {
     background: var(--minerva-surface);
@@ -246,8 +253,19 @@ td.navigation a {
 
 .highlight-box h2,
 .highlight-box h3,
-.info-card h3 {
+.info-card h3,
+.info-card h4 {
     margin-top: 0;
+}
+
+.checklist {
+    list-style: disc;
+    margin: 14px 0 0 0;
+    padding-left: 20px;
+}
+
+.checklist li {
+    margin: 8px 0;
 }
 
 .button-row {
@@ -510,7 +528,8 @@ footer {
     }
 
     .info-grid,
-    .action-grid {
+    .action-grid,
+    .poster-guidelines-grid {
         grid-template-columns: 1fr;
     }
 
