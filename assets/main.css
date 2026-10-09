@@ -251,11 +251,28 @@ td.navigation a {
     padding: 24px;
 }
 
+.support-box {
+    background: #fff7f3;
+    border: 1px solid var(--minerva-border);
+    border-left: 4px solid var(--minerva-orange-dark);
+    border-radius: 14px;
+    margin-top: 36px;
+    padding: 14px 18px;
+}
+
 .highlight-box h2,
 .highlight-box h3,
 .info-card h3,
 .info-card h4 {
     margin-top: 0;
+}
+
+.support-box p {
+    margin: 0;
+}
+
+.support-box a {
+    font-weight: 700;
 }
 
 .checklist {
