@@ -287,6 +287,12 @@ td.navigation a {
     font-weight: 700;
     padding: 12px 20px;
 }
+
+.button-small {
+    font-size: 0.95rem;
+    padding: 10px 16px;
+}
+
 .button-submit {
     background: #9f1d1d;
     border-radius: 999px;
