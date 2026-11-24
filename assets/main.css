@@ -6,6 +6,8 @@
     --minerva-red-dark: #963e0a;
     --minerva-orange: #e66e12;
     --minerva-orange-dark: #b84e0d;
+    --minerva-speaker: #1769aa;
+    --minerva-speaker-soft: #eef7ff;
     --minerva-ink: #3b2426;
     --minerva-muted: #76595a;
     --minerva-background: #fff8f5;
@@ -369,6 +371,14 @@ td.title {
     font-family: 'Roboto Slab', serif;
     font-size: 1.15rem;
     font-weight: 700;
+}
+
+/* Speaker entries use a cool blue accent so they stand apart from the
+   warm orange/red breaks, remarks, and other agenda slots. */
+td.title-speaker {
+    background: var(--minerva-speaker-soft);
+    border-left: 4px solid var(--minerva-speaker);
+    color: var(--minerva-speaker);
 }
 
 td.title-special {
