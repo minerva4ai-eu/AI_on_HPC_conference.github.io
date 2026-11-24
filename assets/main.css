@@ -381,6 +381,17 @@ td.title-speaker {
     color: var(--minerva-speaker);
 }
 
+td.title-speaker a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
+td.title-speaker a:hover,
+td.title-speaker a:focus {
+    color: var(--minerva-red-dark);
+}
+
 td.title-special {
     color: var(--minerva-orange-dark);
     font-family: 'Roboto Slab', serif;
